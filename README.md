@@ -1,5 +1,5 @@
 Wi-Fi Network Analyzer
-Wi-Fi Network Analyzer is a tool designed to scan for nearby Wi-Fi networks, provide detailed information about them, and run speed tests. The application features a graphical user interface (GUI) built with Tkinter, and uses pywifi for network scanning and speedtest for speed tests.
+Wi-Fi Network Analyzer is a tool designed to scan for nearby Wi-Fi networks, provide detailed information about them, and run speed tests. The application features a graphical user interface (GUI) built with Tkinter, and uses pywifi for network scanning and speedtest-cli for speed tests.
 
 Features
 Network Scanning: Scan for nearby Wi-Fi networks and display detailed information including BSSID, SSID, signal strength, authentication type, encryption type, channel, and WPS status.
@@ -9,22 +9,29 @@ Auto-Refresh: Automatically refresh the network list at specified intervals.
 Export to CSV: Export the network details to a CSV file.
 Theme and Styling: Toggle between dark mode and light mode themes.
 Help and Documentation: Built-in help and about sections.
-#Prerequisites
+Prerequisites
 Python 3.6 or higher
 The following Python packages:
 tkinter
 pywifi
 speedtest-cli
 matplotlib
-#Installation
-Clone the Repository: [git clone](https://github.com/0khacha/NetworkAnalyser)
+Installation
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/0khacha/NetworkAnalyser.git
 cd networksproject
 Install Required Packages:
 
+bash
+Copy code
 pip install pywifi speedtest-cli matplotlib
 Run the Application:
 
-
+bash
+Copy code
 python wifi_analyzer.py
 Usage
 Scan for Networks:
@@ -83,4 +90,3 @@ Speed tests are performed using the speedtest-cli library.
 GUI components are built with tkinter.
 Contact
 For any questions or issues, please contact [mohamedkhacha99@gmail.com].
-
